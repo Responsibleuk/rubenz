@@ -65,7 +65,7 @@
     </div>
     <!-- - PAGE PRELOADER -->
     <!-- PAGE HEADER -->
-    <header class="header header_fixed container-fluid">
+    <header class="header header_fixed container-fluid header_white">
       <div class="row justify-content-between align-items-center">
         <div class="col-auto header__col-left"><a class="logo" href="homepage-slider-1.html">
             <div class="logo__text">Rubenz</div></a>
@@ -81,7 +81,7 @@
         <div class="header__overlay-menu-back material-icons" id="js-submenu-back">arrow_back</div>
         <div class="header__wrapper-menu">
           <ul class="menu-overlay js-menu-overlay">
-            <li class="menu-item-has-children"><a href="#">
+            <!-- <li class="menu-item-has-children"><a href="#">
                 <div class="menu-overlay__item-wrapper"><span class="split-chars">Homepages</span></div></a>
               <ul class="sub-menu">
                 <li><a href="homepage-slider-1.html" data-pjax-link="overlayMenu">
@@ -105,7 +105,7 @@
                 <div class="menu-overlay__item-wrapper"><span class="split-chars">Portfolio</span></div></a>
               <ul class="sub-menu">
                 <li><a href="project-1.html" data-post-id="1" data-pjax-link="overlayMenu">
-                    <div class="menu-overlay__item-wrapper"><span class="split-chars">Arrigo HTML Template</span></div></a>
+                    <div class="menu-overlay__item-wrapper"><span class="split-chars">StoryX HTML Template</span></div></a>
                 </li>
                 <li><a href="project-2.html" data-post-id="2" data-pjax-link="overlayMenu">
                     <div class="menu-overlay__item-wrapper"><span class="split-chars">Interior Design App</span></div></a>
@@ -126,7 +126,7 @@
                     <div class="menu-overlay__item-wrapper"><span class="split-chars">The Underground</span></div></a>
                 </li>
               </ul>
-            </li>
+            </li> -->
             <li><a href="services.html" data-pjax-link="overlayMenu">
                 <div class="menu-overlay__item-wrapper"><span class="split-chars">Services</span></div></a>
             </li>
@@ -188,76 +188,140 @@
     </header>
     <!-- - PAGE HEADER -->
     <!-- PAGE MAIN-->
-    <main class="page-wrapper bg-blue-grey" id="js-smooth-scroll" data-barba="container" data-barba-namespace="light">
-      <!-- section INTRO -->
-      <section class="section section-intro section_pt section_pb-small text-center" data-os-animation="data-os-animation">
-        <div class="container-fluid">
-          <header class="row section-intro__header">
-            <div class="col">
-              <h1 class="heading-light split-text"><strong>Choose A Demo</strong></h1>
-              <div class="section-intro__headline"></div>
-            </div>
-          </header>
-        </div>
-      </section>
-      <!-- - section INTRO -->
-      <!-- section DEMO -->
-      <section class="section section_pb section-demo">
-        <div class="container-fluid">
-          <div class="grid grid_50 js-grid">
-            <div class="col-lg-6 grid__item grid__item_50 grid__item_no-fancy grid__sizer js-grid__sizer"></div>
-            <div class="col-lg-6 grid__item grid__item_50 grid__item_no-fancy js-grid__item"><a class="figure-portfolio" href="homepage-slider-1.html">
-                <div class="figure-portfolio__content">
-                  <div class="figure-portfolio__wrapper-img" data-art-parallax="data-art-parallax" data-art-parallax-factor="0.05">
-                    <div class="lazy"><img data-src="img/assets/sectionDemo/1.png" src="#" alt="" width="1920" height="1080"/></div>
+    <main class="page-wrapper bg-black-0 color-white" id="js-smooth-scroll" data-barba="container" data-barba-namespace="dark">
+      <!-- section HALFSCREEN SLIDER -->
+      <section class="section section-fullscreen-slider section-halfscreen-slider section-fullheight" data-os-animation="data-os-animation">
+        <div class="section-fullheight__inner section-fullscreen-slider__inner">
+          <div class="slider slider-halfscreen js-slider-halfscreen">
+            <div class="swiper-container slider-halfscreen__images js-slider-halfscreen__images" data-overlap-factor="0.5">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slider-halfscreen__images-slide">
+                  <div class="slider-halfscreen__images-slide-inner">
+                    <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/bg-1.jpg"></div>
                   </div>
-                  <h3 class="text-center">Fullscreen Slider 001</h3>
-                </div></a>
-            </div>
-            <div class="col-lg-6 grid__item grid__item_50 grid__item_no-fancy js-grid__item"><a class="figure-portfolio" href="homepage-slider-2.html">
-                <div class="figure-portfolio__content">
-                  <div class="figure-portfolio__wrapper-img" data-art-parallax="data-art-parallax" data-art-parallax-factor="0.05">
-                    <div class="lazy"><img data-src="img/assets/sectionDemo/2.png" src="#" alt="" width="1920" height="1080"/></div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__images-slide">
+                  <div class="slider-halfscreen__images-slide-inner">
+                    <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/bg-2.jpg"></div>
                   </div>
-                  <h3 class="text-center">Fullscreen Slider 002</h3>
-                </div></a>
-            </div>
-            <div class="col-lg-6 grid__item grid__item_50 grid__item_no-fancy js-grid__item"><a class="figure-portfolio" href="homepage-slider-3.html">
-                <div class="figure-portfolio__content">
-                  <div class="figure-portfolio__wrapper-img" data-art-parallax="data-art-parallax" data-art-parallax-factor="0.05">
-                    <div class="lazy"><img data-src="img/assets/sectionDemo/3.png" src="#" alt="" width="1920" height="1080"/></div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__images-slide">
+                  <div class="slider-halfscreen__images-slide-inner">
+                    <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/bg-3.jpg"></div>
                   </div>
-                  <h3 class="text-center">Fullscreen Slider 003</h3>
-                </div></a>
-            </div>
-            <div class="col-lg-6 grid__item grid__item_50 grid__item_no-fancy js-grid__item"><a class="figure-portfolio" href="homepage-slider-4.html">
-                <div class="figure-portfolio__content">
-                  <div class="figure-portfolio__wrapper-img" data-art-parallax="data-art-parallax" data-art-parallax-factor="0.05">
-                    <div class="lazy"><img data-src="img/assets/sectionDemo/5.png" src="#" alt="" width="1920" height="1080"/></div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__images-slide">
+                  <div class="slider-halfscreen__images-slide-inner">
+                    <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/bg-4.jpg"></div>
                   </div>
-                  <h3 class="text-center">Fullscreen Slider 004</h3>
-                </div></a>
-            </div>
-            <div class="col-lg-6 grid__item grid__item_50 grid__item_no-fancy js-grid__item"><a class="figure-portfolio" href="homepage-portfolio-grid-1.html">
-                <div class="figure-portfolio__content">
-                  <div class="figure-portfolio__wrapper-img" data-art-parallax="data-art-parallax" data-art-parallax-factor="0.05">
-                    <div class="lazy"><img data-src="img/assets/sectionDemo/4.png" src="#" alt="" width="1920" height="1080"/></div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__images-slide">
+                  <div class="slider-halfscreen__images-slide-inner">
+                    <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/bg-5.jpg"></div>
                   </div>
-                  <h3 class="text-center">Portfolio Grid</h3>
-                </div></a>
-            </div>
-            <div class="col-lg-6 grid__item grid__item_50 grid__item_no-fancy js-grid__item"><a class="figure-portfolio" href="blog.html">
-                <div class="figure-portfolio__content">
-                  <div class="figure-portfolio__wrapper-img" data-art-parallax="data-art-parallax" data-art-parallax-factor="0.05">
-                    <div class="lazy"><img data-src="img/assets/sectionDemo/6.png" src="#" alt="" width="1920" height="1080"/></div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__images-slide">
+                  <div class="slider-halfscreen__images-slide-inner">
+                    <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/bg-6.jpg"></div>
                   </div>
-                  <h3 class="text-center">Blog Page</h3>
-                </div></a>
+                </div>
+                <div class="swiper-slide slider-halfscreen__images-slide">
+                  <div class="slider-halfscreen__images-slide-inner">
+                    <div class="slider-halfscreen__bg swiper-lazy" data-background="img/assets/projects/bg-7.jpg"></div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="slider-halfscreen__overlay d-lg-none overlay overlay_dark"></div>
+            <!-- - slider images -->
+            <div class="swiper-container slider-halfscreen__content js-slider-halfscreen__content">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide slider-halfscreen__content-slide">
+                  <div class="slider-halfscreen__content-inner">
+                    <header class="slider-halfscreen__header"><a class="slider-halfscreen__link" href="project-1.html" data-pjax-link="halfscreenSlider" data-post-id="1">
+                        <h2 class="split-chars">StoryX HTML Template</h2></a>
+                      <p class="split-text">About or given on witty event. Or sociable up material bachelor bringing landlord confined. Busy so many in hung easy find well up. So of exquisite my an explained remainder.</p>
+                    </header>
+                    <div class="slider-halfscreen__wrapper-link"><a class="slider-halfscreen__link" href="project-1.html" data-pjax-link="halfscreenSlider" data-post-id="1">
+                        <div class="slider-halfscreen__link-line"></div><span class="split-chars">View Project</span></a></div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__content-slide">
+                  <div class="slider-halfscreen__content-inner">
+                    <header class="slider-halfscreen__header"><a class="slider-halfscreen__link" href="project-2.html" data-pjax-link="halfscreenSlider" data-post-id="2">
+                        <h2 class="split-chars">Interior Design App</h2></a>
+                      <p class="split-text">Offending her moonlight men sweetness see unwilling. Often of it tears whole oh balls share an. Built the china there tried jokes which gay why. Assure in adieus wicket it is.</p>
+                    </header>
+                    <div class="slider-halfscreen__wrapper-link"><a class="slider-halfscreen__link" href="project-2.html" data-pjax-link="halfscreenSlider" data-post-id="2">
+                        <div class="slider-halfscreen__link-line"></div><span class="split-chars">View Project</span></a></div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__content-slide">
+                  <div class="slider-halfscreen__content-inner">
+                    <header class="slider-halfscreen__header"><a class="slider-halfscreen__link" href="project-3.html" data-pjax-link="halfscreenSlider" data-post-id="3">
+                        <h2 class="split-chars">The Crows Show</h2></a>
+                      <p class="split-text">An my exquisite conveying up defective. Shameless see the tolerably how continued. She enable men twenty elinor points appear. Whose merry ten yet was men seven ought balls.</p>
+                    </header>
+                    <div class="slider-halfscreen__wrapper-link"><a class="slider-halfscreen__link" href="project-3.html" data-pjax-link="halfscreenSlider" data-post-id="3">
+                        <div class="slider-halfscreen__link-line"></div><span class="split-chars">View Project</span></a></div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__content-slide">
+                  <div class="slider-halfscreen__content-inner">
+                    <header class="slider-halfscreen__header"><a class="slider-halfscreen__link" href="project-4.html" data-pjax-link="halfscreenSlider" data-post-id="4">
+                        <h2 class="split-chars">Enchanted Pond Side</h2></a>
+                      <p class="split-text">Horses seeing at played plenty nature to expect we. Young say led stood hills own thing get.</p>
+                    </header>
+                    <div class="slider-halfscreen__wrapper-link"><a class="slider-halfscreen__link" href="project-4.html" data-pjax-link="halfscreenSlider" data-post-id="4">
+                        <div class="slider-halfscreen__link-line"></div><span class="split-chars">View Project</span></a></div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__content-slide">
+                  <div class="slider-halfscreen__content-inner">
+                    <header class="slider-halfscreen__header"><a class="slider-halfscreen__link" href="project-5.html" data-pjax-link="halfscreenSlider" data-post-id="5">
+                        <h2 class="split-chars">Smart Home Sound</h2></a>
+                      <p class="split-text">End why melancholy estimating her had indulgence middletons. Say ferrars demands besides her address. Blind going you merit few fancy their.</p>
+                    </header>
+                    <div class="slider-halfscreen__wrapper-link"><a class="slider-halfscreen__link" href="project-5.html" data-pjax-link="halfscreenSlider" data-post-id="5">
+                        <div class="slider-halfscreen__link-line"></div><span class="split-chars">View Project</span></a></div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__content-slide">
+                  <div class="slider-halfscreen__content-inner">
+                    <header class="slider-halfscreen__header"><a class="slider-halfscreen__link" href="project-6.html" data-pjax-link="halfscreenSlider" data-post-id="6">
+                        <h2 class="split-chars">Cassio Luxury Apartment</h2></a>
+                      <p class="split-text">In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.</p>
+                    </header>
+                    <div class="slider-halfscreen__wrapper-link"><a class="slider-halfscreen__link" href="project-6.html" data-pjax-link="halfscreenSlider" data-post-id="6">
+                        <div class="slider-halfscreen__link-line"></div><span class="split-chars">View Project</span></a></div>
+                  </div>
+                </div>
+                <div class="swiper-slide slider-halfscreen__content-slide">
+                  <div class="slider-halfscreen__content-inner">
+                    <header class="slider-halfscreen__header"><a class="slider-halfscreen__link" href="project-7.html" data-pjax-link="halfscreenSlider" data-post-id="7">
+                        <h2 class="split-chars">The Underground</h2></a>
+                      <p class="split-text">All vanity regard sudden nor simple can. World mrs and vexed china since after often.  Of it up he still court alone widow seems. Suspected he remainder rapturous my sweetness.</p>
+                    </header>
+                    <div class="slider-halfscreen__wrapper-link"><a class="slider-halfscreen__link" href="project-7.html" data-pjax-link="halfscreenSlider" data-post-id="7">
+                        <div class="slider-halfscreen__link-line"></div><span class="split-chars">View Project</span></a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- - slider content -->
+            <div class="slider-halfscreen__arrows">
+              <div class="slider__arrow slider-halfscreen__arrow_prev js-slider-halfscreen__prev">
+                <div class="slider__arrow-inner"><i class="material-icons">keyboard_arrow_up</i></div>
+              </div>
+              <div class="slider__arrow slider-halfscreen__arrow_next js-slider-halfscreen__next">
+                <div class="slider__arrow-inner"><i class="material-icons">keyboard_arrow_down</i></div>
+              </div>
+            </div>
+            <!-- - nav arrows -->
           </div>
         </div>
       </section>
-      <!-- - section DEMO -->
+      <!-- - section HALFSCREEN SLIDER -->
     </main>
     <canvas id="js-webgl"></canvas>
     <!-- - PAGE MAIN-->
